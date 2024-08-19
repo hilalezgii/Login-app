@@ -1,11 +1,14 @@
 import React from 'react'
 import styles from './LoginPage.style'
-import { Text, TextInput, View } from 'react-native'
+import { Image, Text, TextInput, View } from 'react-native'
 
 const LoginScreen = () => {
     return (
         <View style={styles.container}>
-            <Text>selam</Text>
+            <Image
+                style={styles.logo}
+                source={require('../assets/coffee.jpg')} />
+            <Text style={styles.text}>Giriş Yap, Kahve Keyfini Yaşa!</Text>
         </View>
     )
 
