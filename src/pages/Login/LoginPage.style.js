@@ -3,7 +3,6 @@ import { StyleSheet } from 'react-native'
 
 export default StyleSheet.create({
     container: {
-        marginTop: 50,
         alignItems: 'center',
         backgroundColor: '#faf0e6',
         flex: 1
@@ -17,7 +16,7 @@ export default StyleSheet.create({
         height: 200,
         borderRadius: 100,
         objectFit: 'contain',
-        marginTop: 50,
+        marginTop: 30,
     },
     userText: {
         fontWeight: '700',
@@ -34,7 +33,7 @@ export default StyleSheet.create({
 
     },
     inputContainer: {
-        marginTop: 80,
+        marginTop: 30,
     },
     TextInput: {
         height: 50,
