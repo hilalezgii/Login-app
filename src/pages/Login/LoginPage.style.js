@@ -66,6 +66,9 @@ export default StyleSheet.create({
         fontWeight: '700',
 
     },
-
+    link:{
+        marginTop:10,
+        flexDirection: 'row',
+    },
 
 })
